@@ -1,5 +1,5 @@
 const request = require('request')
-const APP_TOKEN = 'EAAGoCKQmVI0BAJAY7KDl9mK6DNVONP0bUkZBZCnhnRVNxbsSqX50uL6BH6tHQlMUcT0xKYoD14EMp67IkcvjvF0IYDEhSt9XuLnJ4jgCkBR0WbHYLcZCQdYCv88He09ajJeHDiCqO7c0iNRZCpc6ZAxPMDS5sNj5yxpa96n8GBwZDZD'
+const APP_TOKEN = 'EAAcluiARRx8BACp40eVlGojaRKIS8blMyji7CEBsbdj1NlUT45Kx2GEX8hKoj7EXXf94ZBydNM2dxBZA2Y2ozvZATJPektisPBrv1J5Xhgx9919uyGvseEtNtYYnRrDqb2B8gT8pH2YNw5a4AR6Gv4SMsL7Cl3ADv4fPjzuBMZAOHS2FbnvZA'
 
 function verificar(req, res) {
     if (req.query['hub.verify_token'] == 'this-is-my-token') {
